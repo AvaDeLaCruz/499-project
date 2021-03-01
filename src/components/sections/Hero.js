@@ -70,8 +70,8 @@ const Hero = ({
 								className="m-0 mb-32 reveal-from-bottom"
 								data-reveal-delay="400"
 							>
-								Our landing page template works on all devices, so you only have
-								to set it up once, and get beautiful results forever.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
 							</p>
 							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>

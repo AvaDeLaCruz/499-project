@@ -18,7 +18,7 @@ const Home = () => {
 				className="illustration-section-02"
 			/>
 			{/* <Testimonial topDivider /> */}
-			<Cta split />
+			{/* <Cta split /> */}
 		</>
 	);
 };
