@@ -9,8 +9,6 @@ import Cta from "../components/sections/Cta";
 const Home = () => {
 	return (
 		<>
-			<Hero className="illustration-section-01" />
-			{/* <GuidesTiles /> */}
 			<FeaturesSplit
 				invertMobile
 				topDivider

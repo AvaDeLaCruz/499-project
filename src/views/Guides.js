@@ -9,14 +9,14 @@ import Cta from "../components/sections/Cta";
 const Home = () => {
 	return (
 		<>
-			<Hero className="illustration-section-01" />
-			{/* <GuidesTiles /> */}
-			<FeaturesSplit
+			{/* <Hero className="illustration-section-01" /> */}
+			<GuidesTiles topDivider />
+			{/* <FeaturesSplit
 				invertMobile
 				topDivider
 				imageFill
 				className="illustration-section-02"
-			/>
+			/> */}
 			{/* <Testimonial topDivider /> */}
 			{/* <Cta split /> */}
 		</>
