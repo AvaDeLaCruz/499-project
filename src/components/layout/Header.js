@@ -112,7 +112,7 @@ const Header = ({
 										)}
 									>
 										<li>
-											<Link to="#1" onClick={closeMenu}>
+											<Link to="why-college" onClick={closeMenu}>
 												Why College
 											</Link>
 										</li>
