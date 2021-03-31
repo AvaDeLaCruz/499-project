@@ -98,13 +98,11 @@ const GuideExpanded2 = ({
 											Club Sports, such as soccer, flag football, and tennis
 										</li>
 										<li>
-											Cultural Organizations, like Latinx Student Assembly or la
-											CASA (Latinx Chicanx Center for Advocacy and Student
-											Affairs)
+											Cultural Organizations, like Latinx Student Assembly
 										</li>
 										<li>
-											Recreational/Hobby Clubs, like Art on the Grass and Board
-											Game club
+											Recreational/Hobby Clubs, like Art clubs and Board Game
+											club
 										</li>
 										<li>Service and Volunteering clubs, and</li>
 										<li>Spiritual + Wellness clubs</li>
@@ -116,6 +114,28 @@ const GuideExpanded2 = ({
 										explore USC's student organization page here:{" "}
 										<a href="https://usc.campuslabs.com/engage/organizations">
 											https://usc.campuslabs.com/engage/organizations.
+										</a>
+									</p>
+									<br></br>
+									<p className="text-sm mb-0">
+										If you're interested in learning more about different clubs
+										offered at different universites, here are some additional
+										resources to explore.{" "}
+									</p>
+									<br></br>
+									<p className="text-sm mb-0">
+										<a href="https://thebestschools.org/magazine/popular-college-clubs/">
+											https://thebestschools.org/magazine/popular-college-clubs/
+										</a>
+									</p>
+									<p className="text-sm mb-0">
+										<a href="https://www.bentley.edu/news/12-reasons-why-you-should-join-student-organization">
+											https://www.bentley.edu/news/12-reasons-why-you-should-join-student-organization
+										</a>
+									</p>
+									<p className="text-sm mb-0">
+										<a href="https://www.collegecovered.com/getting-into-college/quiz-what-college-club-should-i-join/">
+											https://www.collegecovered.com/getting-into-college/quiz-what-college-club-should-i-join/
 										</a>
 									</p>
 								</div>
