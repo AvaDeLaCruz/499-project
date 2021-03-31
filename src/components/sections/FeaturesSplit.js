@@ -70,10 +70,8 @@ const FeaturesSplit = ({
 								</div>
 								<h3 className="mt-0 mb-12">Hear from students like you</h3>
 								<p className="m-0">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua
-									— Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.
+									Hear from current and past students about their journey to
+									college and their college experience.
 								</p>
 							</div>
 							<div
@@ -102,10 +100,8 @@ const FeaturesSplit = ({
 								</div>
 								<h3 className="mt-0 mb-12">Learn from detailed guides</h3>
 								<p className="m-0">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua
-									— Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.
+									All of the essential college-related topics, covered. Get your
+									questions answered in easy-to-read guides written by students.
 								</p>
 							</div>
 							<div

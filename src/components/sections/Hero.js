@@ -70,8 +70,8 @@ const Hero = ({
 								className="m-0 mb-32 reveal-from-bottom"
 								data-reveal-delay="400"
 							>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua
+								College Central is your one-stop-shop to hear from current
+								students and learn about important topics related to college.
 							</p>
 							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>
