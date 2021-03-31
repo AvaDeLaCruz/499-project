@@ -112,35 +112,35 @@ const Header = ({
 										)}
 									>
 										<li>
-											<Link to="#1" onClick={closeMenu}>
+											<Link to="why-college" onClick={closeMenu}>
 												Why College
 											</Link>
 										</li>
 										<li>
-											<Link to="#0" onClick={closeMenu}>
+											<Link to="guides" onClick={closeMenu}>
 												Guides
 											</Link>
 										</li>
 										<li>
-											<Link to="#1" onClick={closeMenu}>
+											<Link to="faqs" onClick={closeMenu}>
 												FAQs
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<Link to="#1" onClick={closeMenu}>
-												Traducción en Español
+												Español
 											</Link>
-										</li>
+										</li> */}
 									</ul>
 									{!hideSignin && (
 										<ul className="list-reset header-nav-right">
 											<li>
 												<Link
-													to="#0"
+													to="why-college"
 													className="button button-primary button-wide-mobile button-sm"
 													onClick={closeMenu}
 												>
-													Sign up
+													Get started
 												</Link>
 											</li>
 										</ul>
