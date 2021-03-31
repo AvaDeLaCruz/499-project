@@ -43,7 +43,7 @@ const GuideExpanded2 = ({
 	const sectionHeader = {
 		title: "Clubs and Extracurriculars",
 		paragraph:
-			"Real insights from current first-generation college students on why they chose college, what their college experience has been like, and what their advice would be to current high schoolers."
+			"Real insights from current college students all about clubs and extracurricular activities."
 	};
 
 	return (
