@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
+import { Link } from "react-router-dom";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
 
@@ -71,7 +72,7 @@ const GuidesTiles = ({
 									<h4 className="mt-0 mb-8">Majors and Minors</h4>
 									<p className="m-0 text-sm">
 										All your questions about majors and minors in college,
-										answered here. Click to learn more.
+										answered here. <Link to="majors-minors">Click to learn more.</Link>
 									</p>
 								</div>
 							</div>

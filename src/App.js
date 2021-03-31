@@ -11,6 +11,7 @@ import LayoutDefault from "./layouts/LayoutDefault";
 import Home from "./views/Home";
 import WhyCollege from "./views/WhyCollege";
 import Guides from "./views/Guides";
+import MajorsMinors from "./views/MajorsMinors";
 import FAQs from "./views/FAQs";
 
 // Initialize Google Analytics
@@ -55,6 +56,12 @@ const App = () => {
 						exact
 						path="/faqs"
 						component={FAQs}
+						layout={LayoutDefault}
+					/>
+					<AppRoute
+						exact
+						path="/majors-minors"
+						component={MajorsMinors}
 						layout={LayoutDefault}
 					/>
 				</Switch>
