@@ -79,7 +79,7 @@ const GuidesTiles = ({
 							</div>
 						</a>
 
-						<a href="/faqs">
+						<a href="/guides/clubs-and-extracurriculars">
 							<div
 								className="tiles-item reveal-from-bottom"
 								data-reveal-delay="200"

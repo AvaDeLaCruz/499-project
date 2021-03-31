@@ -13,6 +13,7 @@ import WhyCollege from "./views/WhyCollege";
 import Guides from "./views/Guides";
 import FAQs from "./views/FAQs";
 import GuideDetails from "./views/GuideDetails";
+import GuideDetails2 from "./views/GuideDetails2";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -56,6 +57,12 @@ const App = () => {
 						exact
 						path="/guides/majors-and-minors"
 						component={GuideDetails}
+						layout={LayoutDefault}
+					/>
+					<AppRoute
+						exact
+						path="/guides/clubs-and-extracurriculars"
+						component={GuideDetails2}
 						layout={LayoutDefault}
 					/>
 					<AppRoute
