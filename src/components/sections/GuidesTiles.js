@@ -70,9 +70,8 @@ const GuidesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Majors and Minors</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All your questions about majors and minors in college,
+										answered here. Click to learn more.
 									</p>
 								</div>
 							</div>
@@ -96,9 +95,8 @@ const GuidesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Clubs and Extracurriculars</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All your questions about clubs and extracurriculars in
+										college, answered here. Click to learn more.
 									</p>
 								</div>
 							</div>
@@ -122,9 +120,8 @@ const GuidesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Housing and Transportation</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All your questions about housing and transportation in
+										college, answered here. Click to learn more.
 									</p>
 								</div>
 							</div>
@@ -147,9 +144,8 @@ const GuidesTiles = ({
 										How to Pick the Right College for You
 									</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All your questions about how to pick the right college for
+										you, answered here. Click to learn more.
 									</p>
 								</div>
 							</div>
@@ -173,9 +169,8 @@ const GuidesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Careers after College</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All your questions about careers after college, answered
+										here. Click to learn more.
 									</p>
 								</div>
 							</div>
@@ -199,9 +194,8 @@ const GuidesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Misc. Tips and Tricks</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All your questions about other topics related to college,
+										answered here. Click to learn more.
 									</p>
 								</div>
 							</div>
