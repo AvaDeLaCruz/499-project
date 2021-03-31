@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import Image from "../elements/Image";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 
@@ -57,20 +58,39 @@ const Testimonial = ({
 						>
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
+									<Image
+										className="has-shadow"
+										src={require("./../../assets/images/frankie.png")}
+										alt="Hero"
+										width={500}
+										height={500}
+										align="right"
+										hspace="20px"
+									/>
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+										— The biggest factor which pushed me to go to college was
+										the accomplishment it symbolizes. It shows that you can hand
+										in assignments on time, study, and manage your time well. It
+										also shows that this person is reliable, and went extra step
+										in academics. It also looks good look on your resume. I did
+										have a lot of fear initially about 'Should I go to college'?
+										and I wish I knew then that colleges really want you to
+										attend their college. They'll give you grants, financial
+										aid, and also academic support and help if you need it. Some
+										people might feel behind in high school and not be sure if
+										they want to go to college, but there's a lot of support
+										available and you can do it.
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
 									<span className="testimonial-item-name text-color-high">
-										Roman Level
+										Frank Carpio
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">First-Gen Computer Science Student at USC</a>
+										<a href="#0">
+											First-Gen Graphic Design Student, Class of 2020
+										</a>
 									</span>
 								</div>
 							</div>
