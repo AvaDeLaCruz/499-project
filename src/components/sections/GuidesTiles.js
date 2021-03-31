@@ -55,7 +55,7 @@ const GuidesTiles = ({
 				<div className={innerClasses}>
 					<SectionHeader data={sectionHeader} className="center-content" />
 					<div className={tilesClasses}>
-						<a href="/faqs">
+						<a href="/guides/majors-and-minors">
 							<div className="tiles-item reveal-from-bottom">
 								<div className="tiles-item-inner">
 									<div className="features-tiles-item-header">

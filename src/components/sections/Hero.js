@@ -71,7 +71,7 @@ const Hero = ({
 								data-reveal-delay="400"
 							>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+								eiusmod tempor incididunt ut labore et dolore magna aliqua
 							</p>
 							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>

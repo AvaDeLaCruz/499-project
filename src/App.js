@@ -12,6 +12,7 @@ import Home from "./views/Home";
 import WhyCollege from "./views/WhyCollege";
 import Guides from "./views/Guides";
 import FAQs from "./views/FAQs";
+import GuideDetails from "./views/GuideDetails";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -49,6 +50,12 @@ const App = () => {
 						exact
 						path="/guides"
 						component={Guides}
+						layout={LayoutDefault}
+					/>
+					<AppRoute
+						exact
+						path="/guides/majors-and-minors"
+						component={GuideDetails}
 						layout={LayoutDefault}
 					/>
 					<AppRoute
