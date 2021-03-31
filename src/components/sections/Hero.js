@@ -79,7 +79,7 @@ const Hero = ({
 										tag="a"
 										color="primary"
 										wideMobile
-										href="https://cruip.com/"
+										href="/why-college"
 									>
 										Get started
 									</Button>
