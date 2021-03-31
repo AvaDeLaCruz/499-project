@@ -99,20 +99,43 @@ const Testimonial = ({
 						<div className="tiles-item reveal-from-bottom">
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
+									<Image
+										className="has-shadow"
+										src={require("./../../assets/images/lina.jpeg")}
+										alt="Hero"
+										width={450}
+										height={450}
+										align="left"
+										hspace="20px"
+									/>
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+										— I wish I'd known how much of a shock college would be. I
+										think the most shocking thing was realizing that I am a
+										first-generation college student. It was very isolating, and
+										I often doubted my place here at USC. However, I was able to
+										join a support group for first-generation students during my
+										freshmen year, and that was super grounding and really
+										important to me. Even though I dealt with that initial
+										loneliness, I've ultimately been able to form stronger
+										relationships with those around me. I think one of the
+										greatest values of college has been meeting different kinds
+										of people. This scared me at first because I went to a very
+										small suburban high school, and everyone was pretty much the
+										same. Here I've met individuals from all parts of the world
+										with different beliefs, ideologies, and upbringings. I
+										really value the diversity we have here.
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
 									<span className="testimonial-item-name text-color-high">
-										Diana Rynzhuk
+										Angelina Crittenden
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">First-Gen Public Relations Major at USC</a>
+										<a href="#0">
+											First-Gen Human Biology Major with Forensics and
+											Criminality and Health Care Studies minors, Class of 2022
+										</a>
 									</span>
 								</div>
 							</div>
