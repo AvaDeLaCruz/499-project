@@ -96,7 +96,7 @@ const Testimonial = ({
 							</div>
 						</div>
 
-						<div className="tiles-item reveal-from-bottom">
+						<div className="tiles-item reveal-from-left">
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<Image
@@ -142,26 +142,27 @@ const Testimonial = ({
 						</div>
 
 						<div
-							className="tiles-item reveal-from-left"
+							className="tiles-item reveal-from-right"
 							data-reveal-delay="200"
 						>
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+										— The biggest factor which pushed me to go to college was
+										the accomplishment it symbolizes. It shows that you can hand
+										in assignments on time, study, and manage your time well. It
+										also shows that this person is reliable, and went extra step
+										in academics. It also looks good look on your resume.
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
 									<span className="testimonial-item-name text-color-high">
-										Ben Stafford
+										Sharif Simon
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
 										<a href="#0">
-											First-Gen Computer Science Student, class of 2024
+											First-Gen Computer Science Student, Class of 2024
 										</a>
 									</span>
 								</div>
@@ -175,20 +176,23 @@ const Testimonial = ({
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+										I did have a lot of fear initially about 'Should I go to
+										college'? and I wish I knew then that colleges really want
+										you to attend their college. They'll give you grants,
+										financial aid, and also academic support and help if you
+										need it. Some people might feel behind in high school and
+										not be sure if they want to go to college, but there's a lot
+										of support available and you can do it.
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
 									<span className="testimonial-item-name text-color-high">
-										Ben Stafford
+										Sara Jacob
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
 										<a href="#0">
-											First-Gen Human Biology Student, Class of 2023
+											First-Gen Electrical Engineering Student, Class of 2023
 										</a>
 									</span>
 								</div>
@@ -196,6 +200,64 @@ const Testimonial = ({
 						</div>
 
 						<div
+							className="tiles-item reveal-from-right"
+							data-reveal-delay="200"
+						>
+							<div className="tiles-item-inner">
+								<div className="testimonial-item-content">
+									<p className="text-sm mb-0">
+										— I wish I'd known how much of a shock college would be. I
+										think the most shocking thing was realizing that I am a
+										first-generation college student. It was very isolating, and
+										I often doubted my place here at USC. However, I was able to
+										join a support group for first-generation students during my
+										freshmen year, and that was super grounding and really
+										important to me.
+									</p>
+								</div>
+								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+									<span className="testimonial-item-name text-color-high">
+										Amalia Luna
+									</span>
+									<span className="text-color-low"> / </span>
+									<span className="testimonial-item-link">
+										<a href="#0">First-Gen Psychology Student, Class of 2019</a>
+									</span>
+								</div>
+							</div>
+						</div>
+
+						<div
+							className="tiles-item reveal-from-left"
+							data-reveal-delay="200"
+						>
+							<div className="tiles-item-inner">
+								<div className="testimonial-item-content">
+									<p className="text-sm mb-0">
+										— I think one of the greatest values of college has been
+										meeting different kinds of people. This scared me at first
+										because I went to a very small suburban high school, and
+										everyone was pretty much the same. Here I've met individuals
+										from all parts of the world with different beliefs,
+										ideologies, and upbringings. I really value the diversity we
+										have here.
+									</p>
+								</div>
+								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+									<span className="testimonial-item-name text-color-high">
+										Nuria Yaiza
+									</span>
+									<span className="text-color-low"> / </span>
+									<span className="testimonial-item-link">
+										<a href="#0">
+											First-Gen Communications Student, Class of 2022
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+
+						{/* <div
 							className="tiles-item reveal-from-left"
 							data-reveal-delay="200"
 						>
@@ -210,15 +272,17 @@ const Testimonial = ({
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
 									<span className="testimonial-item-name text-color-high">
-										Ben Stafford
+										Paulina Reyna
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">First-Gen Human Biology Student at USC</a>
+										<a href="#0">
+											First-Gen Communications student, Class of 2020
+										</a>
 									</span>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
