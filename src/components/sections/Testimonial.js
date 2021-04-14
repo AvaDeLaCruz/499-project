@@ -148,21 +148,94 @@ const Testimonial = ({
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<p className="text-sm mb-0">
-										— The biggest factor which pushed me to go to college was
-										the accomplishment it symbolizes. It shows that you can hand
-										in assignments on time, study, and manage your time well. It
-										also shows that this person is reliable, and went extra step
-										in academics. It also looks good look on your resume.
+										— Being a first-generation student can come with many
+										challenges, but it is something to be proud of and is well
+										worth it at the end. As a first-generation college student
+										who at first wasn’t too sure if I wanted to attend a
+										four-year college, graduating from The University of
+										Hartford is my life’s biggest accomplishment to date. My
+										parents moved my brother and me from Peru to the United
+										States solely for the purpose of having greater educational
+										opportunities that could eventually lead to better job
+										opportunities in any field that you are passionate about.
+										What makes it challenging being a first-generation student
+										is the lack of personal experience that our parents have
+										with postsecondary education. Typically, parents of
+										first-generation college students often lack awareness of
+										the social and economic benefits of college attendance. One
+										thing that made it more difficult for my parents to
+										understand the process of attending college was their lack
+										of the English language. In order for me to attend college,
+										I had to seek guidance from others who already attended
+										college and I had to educate myself about applying to
+										schools, financial aid and scholarships. My junior and
+										senior year of high school were very stressful in terms of
+										figuring out what I wanted to do post graduating. If you
+										feel like you have no idea, don’t be afraid because you are
+										not alone. One of the hardest things for me was figuring out
+										my financial situation and what schools worked best for me.
+										It takes some time and a little bit of research as
+										first-generation students to apply to schools that best fits
+										your financial situation. One thing I wish my high school
+										would’ve taught us more about is looking for different
+										scholarships that one can apply for. I found out through
+										family friends about these and it is something that really
+										helped me out.
+										<br /> <br /> I was very inspired and motivated by my family
+										to attend college. All the hard work and sacrifices that my
+										parents made for me and my brother inspired me to be the
+										best that I can be. I wanted to make them proud by attending
+										and graduating a four-year college. Throughout this process,
+										I learned a lot about myself and I was really able to
+										understand the value of college. Whatever you are passionate
+										about or whatever field you want to eventually work in,
+										there’s college courses/programs for anything and everything
+										that can really help you in your future career. Aside from
+										your education, college really gives you the opportunity to
+										meet new people and experience different things. Your first
+										year may be a little intimidating because you may not know a
+										lot of people or anyone but you are on the same boat as
+										almost everyone else that is a first year student. Colleges
+										offers lots of different clubs within the school and if your
+										school doesn’t have that club, they give you the opportunity
+										to start one. If you were a high school athlete but didn’t
+										want to play collegiate sports, you can always join a sports
+										club that is less time consuming. You still get to enjoy the
+										sport you love playing and you get to meet new people who
+										share the same passion. Social networking is also a huge
+										part of college which allows you to open up doors for
+										different opportunities in the future. College isn’t only
+										about your education but also being able to find yourself
+										through different experiences and connecting with others.
+										You don’t need to live on campus either to be able to do
+										these things. Sometimes living at home and commuting can be
+										a smarter plan financially but that comes down to your
+										personal situation.
+										<br /> <br /> For any first-generation student who has any
+										doubt in attending college I would say really take your time
+										to think it out, ask lots of questions and look at your
+										options. There are many people out there that are willing to
+										help if all you do is ask the questions. Being a first
+										generation student going into college should be taken with a
+										lot of pride. It takes a lot of courage to do something that
+										no one else in your family has done and once you get through
+										it, it is one of the best feelings in the world. College is
+										a once in a lifetime experience that does come with many
+										obstacles but it’s the beauty within those struggles that
+										make it worthwhile. As a first generation student myself I
+										highly recommend attending a college to be able to further
+										your education and make memories that last for a lifetime.{" "}
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
 									<span className="testimonial-item-name text-color-high">
-										Sharif Simon
+										Sebastian M. Rengifo Amblodegui
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
 										<a href="#0">
-											First-Gen Computer Science Student, Class of 2024
+											First-Gen Criminal Justice + Psychology and Sociology
+											Student, Class of 2019
 										</a>
 									</span>
 								</div>
