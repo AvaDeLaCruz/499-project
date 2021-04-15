@@ -71,6 +71,12 @@ const App = () => {
 						component={FAQs}
 						layout={LayoutDefault}
 					/>
+					<AppRoute
+						exact
+						path="/progress"
+						component={FAQs}
+						layout={LayoutDefault}
+					/>
 				</Switch>
 			)}
 		/>

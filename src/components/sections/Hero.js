@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
@@ -75,13 +76,8 @@ const Hero = ({
 							</p>
 							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>
-									<Button
-										tag="a"
-										color="primary"
-										wideMobile
-										href="/why-college"
-									>
-										Get started
+									<Button tag="a" color="primary" wideMobile>
+										<Link to="/why-college">Get started</Link>
 									</Button>
 									{/* <Button
 										tag="a"

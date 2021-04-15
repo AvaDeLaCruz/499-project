@@ -126,6 +126,11 @@ const Header = ({
 												FAQs
 											</Link>
 										</li>
+										<li>
+											<Link to="/progress" onClick={closeMenu}>
+												Progress
+											</Link>
+										</li>
 										{/* <li>
 											<Link to="#1" onClick={closeMenu}>
 												Español
@@ -136,7 +141,7 @@ const Header = ({
 										<ul className="list-reset header-nav-right">
 											<li>
 												<Link
-													to="why-college"
+													to="/why-college"
 													className="button button-primary button-wide-mobile button-sm"
 													onClick={closeMenu}
 												>
