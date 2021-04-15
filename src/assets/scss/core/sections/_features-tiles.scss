@@ -51,6 +51,13 @@
 		padding-left: $features-tiles-item--inner-padding-h;
 		padding-right: $features-tiles-item--inner-padding-h;
 		background-color: $features-tiles-item--background-color;
+
+
+		&:hover {
+			background-color: get-color(dark, 3);
+
+
+		}
 	}
 }
 
