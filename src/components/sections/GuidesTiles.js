@@ -43,7 +43,8 @@ const GuidesTiles = ({
 	);
 
 	const tilesClasses = classNames(
-		"tiles-wrap center-content",
+		// "tiles-wrap center-content",
+		"tiles-wrap",
 		pushLeft && "push-left"
 	);
 
@@ -185,8 +186,8 @@ const GuidesTiles = ({
 									<div className="features-tiles-item-content">
 										<h4 className="mt-0 mb-8">Careers after College</h4>
 										<p className="m-0 text-sm">
-											All your questions about careers after college, answered
-											here. Click to learn more.
+											All your questions about working and careers after
+											college, answered here. Click to learn more.
 										</p>
 									</div>
 								</div>
