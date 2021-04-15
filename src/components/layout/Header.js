@@ -112,17 +112,17 @@ const Header = ({
 										)}
 									>
 										<li>
-											<Link to="why-college" onClick={closeMenu}>
+											<Link to="/why-college" onClick={closeMenu}>
 												Why College
 											</Link>
 										</li>
 										<li>
-											<Link to="guides" onClick={closeMenu}>
+											<Link to="/guides" onClick={closeMenu}>
 												Guides
 											</Link>
 										</li>
 										<li>
-											<Link to="faqs" onClick={closeMenu}>
+											<Link to="/faqs" onClick={closeMenu}>
 												FAQs
 											</Link>
 										</li>

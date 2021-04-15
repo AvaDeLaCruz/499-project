@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouteMatch, Link } from "react-router-dom";
 import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
@@ -11,6 +12,7 @@ const propTypes = {
 const defaultProps = {
 	...SectionTilesProps.defaults
 };
+
 const GuidesTiles = ({
 	className,
 	topOuterDivider,
@@ -22,6 +24,8 @@ const GuidesTiles = ({
 	pushLeft,
 	...props
 }) => {
+	const { path, url } = useRouteMatch();
+
 	const outerClasses = classNames(
 		"features-tiles section",
 		topOuterDivider && "has-top-divider",
@@ -55,7 +59,7 @@ const GuidesTiles = ({
 				<div className={innerClasses}>
 					<SectionHeader data={sectionHeader} className="center-content" />
 					<div className={tilesClasses}>
-						<a href="/guides/majors-and-minors">
+						<Link to={`${url}/majors-and-minors`}>
 							<div className="tiles-item reveal-from-bottom">
 								<div className="tiles-item-inner">
 									<div className="features-tiles-item-header">
@@ -77,9 +81,9 @@ const GuidesTiles = ({
 									</div>
 								</div>
 							</div>
-						</a>
+						</Link>
 
-						<a href="/guides/clubs-and-extracurriculars">
+						<Link to={`${url}/clubs-and-extracurriculars`}>
 							<div
 								className="tiles-item reveal-from-bottom"
 								data-reveal-delay="200"
@@ -104,7 +108,7 @@ const GuidesTiles = ({
 									</div>
 								</div>
 							</div>
-						</a>
+						</Link>
 
 						<a href="/faqs">
 							<div
@@ -134,7 +138,10 @@ const GuidesTiles = ({
 						</a>
 
 						<a href="/faqs">
-							<div className="tiles-item reveal-from-bottom">
+							<div
+								className="tiles-item reveal-from-bottom"
+								data-reveal-delay="600"
+							>
 								<div className="tiles-item-inner">
 									<div className="features-tiles-item-header">
 										<div className="features-tiles-item-image mb-16">
@@ -162,7 +169,7 @@ const GuidesTiles = ({
 						<a href="/faqs">
 							<div
 								className="tiles-item reveal-from-bottom"
-								data-reveal-delay="200"
+								data-reveal-delay="800"
 							>
 								<div className="tiles-item-inner">
 									<div className="features-tiles-item-header">
@@ -189,7 +196,7 @@ const GuidesTiles = ({
 						<a href="/faqs">
 							<div
 								className="tiles-item reveal-from-bottom"
-								data-reveal-delay="400"
+								data-reveal-delay="1000"
 							>
 								<div className="tiles-item-inner">
 									<div className="features-tiles-item-header">
