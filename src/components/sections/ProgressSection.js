@@ -5,6 +5,7 @@ import { SectionProps } from "../../utils/SectionProps";
 import Input from "../elements/Input";
 import SectionHeader from "./partials/SectionHeader";
 import ProgressBar from "../elements/ProgressBar";
+import Switch from "../elements/Switch";
 
 const propTypes = {
 	...SectionProps.types,
@@ -34,7 +35,7 @@ const ProgressSection = ({
 	...props
 }) => {
 	const outerClasses = classNames(
-		" section center-content-mobile reveal-from-bottom",
+		"features-tiles section center-content-mobile reveal-from-bottom",
 		topOuterDivider && "has-top-divider",
 		bottomOuterDivider && "has-bottom-divider",
 		hasBgColor && "has-bg-color",
@@ -43,7 +44,7 @@ const ProgressSection = ({
 	);
 
 	const innerClasses = classNames(
-		"section-inner",
+		"features-tiles section-inner",
 		topDivider && "has-top-divider",
 		bottomDivider && "has-bottom-divider",
 		split && "cta-split"

@@ -14,14 +14,16 @@ const defaultProps = {
 
 const ProgressBar = ({ children, className, status, ...props }) => {
 	const classes = classNames(
-		"form-hint",
-		status && `text-color-${status}`,
+		"progress-bar",
+		// status && `text-color-${status}`,
 		className
 	);
 
 	return (
 		<div {...props} className={classes}>
-			<progress value="1" max="7"></progress>
+			<progress value="70" max="100">
+				70%
+			</progress>
 			{children}
 		</div>
 	);
