@@ -11,9 +11,10 @@ import LayoutDefault from "./layouts/LayoutDefault";
 import Home from "./views/Home";
 import WhyCollege from "./views/WhyCollege";
 import Guides from "./views/Guides";
-import FAQs from "./views/FAQs";
 import GuideDetails from "./views/GuideDetails";
 import GuideDetails2 from "./views/GuideDetails2";
+import FAQs from "./views/FAQs";
+import Progress from "./views/Progress";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -74,7 +75,7 @@ const App = () => {
 					<AppRoute
 						exact
 						path="/progress"
-						component={FAQs}
+						component={Progress}
 						layout={LayoutDefault}
 					/>
 				</Switch>

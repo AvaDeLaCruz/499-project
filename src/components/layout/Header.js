@@ -121,14 +121,15 @@ const Header = ({
 												Guides
 											</Link>
 										</li>
-										<li>
-											<Link to="/faqs" onClick={closeMenu}>
-												FAQs
-											</Link>
-										</li>
+
 										<li>
 											<Link to="/progress" onClick={closeMenu}>
 												Progress
+											</Link>
+										</li>
+										<li>
+											<Link to="/faqs" onClick={closeMenu}>
+												FAQs
 											</Link>
 										</li>
 										{/* <li>
