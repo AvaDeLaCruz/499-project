@@ -51,6 +51,15 @@ const ProgressSection = ({
 		split && "cta-split"
 	);
 
+	const handleCheckboxChange = e => {
+		// e.preventDefault();
+		if (e.target.type === "checkbox") {
+			const id = JSON.stringify(e.target.id);
+			const checked = JSON.stringify(e.target.checked);
+			localStorage.setItem(id, checked);
+		}
+	};
+
 	return (
 		<section {...props} className={outerClasses}>
 			<div className="container">
@@ -63,6 +72,7 @@ const ProgressSection = ({
 								className="student-stories"
 								id="checkbox-student-stories"
 								// checked={false}
+								onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Why College?</b> Read our student stories.
@@ -74,6 +84,7 @@ const ProgressSection = ({
 								className="majors-minors"
 								id="checkbox-majors-minors"
 								// checked={true}
+								onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about majors and minors.
@@ -85,6 +96,7 @@ const ProgressSection = ({
 								className="clubs-extracurriculars"
 								id="checkbox-clubs-extracurriculars"
 								// checked={localStorage.getItem()}
+								onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about clubs and
@@ -96,6 +108,7 @@ const ProgressSection = ({
 							<Checkbox
 								className="housing-transportation"
 								id="checkbox-housing-transportation"
+								onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about housing and
@@ -104,7 +117,11 @@ const ProgressSection = ({
 							</Checkbox>
 						</div>
 						<div className="flex-item">
-							<Checkbox className="how-to-pick" id="checkbox-how-to-pick">
+							<Checkbox
+								className="how-to-pick"
+								id="checkbox-how-to-pick"
+								onChange={handleCheckboxChange}
+							>
 								<label>
 									<b>Guides:</b> Read our guides about how to pick the right
 									college for you.
@@ -112,7 +129,11 @@ const ProgressSection = ({
 							</Checkbox>
 						</div>
 						<div className="flex-item">
-							<Checkbox className="careers-after" id="checkbox-careers-after">
+							<Checkbox
+								className="careers-after"
+								id="checkbox-careers-after"
+								onChange={handleCheckboxChange}
+							>
 								<label>
 									<b>Guides:</b> Read our guides about careers after college.
 								</label>
