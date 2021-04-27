@@ -21,8 +21,8 @@ const ProgressBar = ({ children, className, status, ...props }) => {
 
 	return (
 		<div {...props} className={classes}>
-			<progress value="70" max="100">
-				70%
+			<progress value="0" max="100">
+				0%
 			</progress>
 			{children}
 		</div>

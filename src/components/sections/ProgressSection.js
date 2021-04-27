@@ -6,6 +6,7 @@ import Input from "../elements/Input";
 import SectionHeader from "./partials/SectionHeader";
 import ProgressBar from "../elements/ProgressBar";
 import Switch from "../elements/Switch";
+import Checkbox from "../elements/Checkbox";
 
 const propTypes = {
 	...SectionProps.types,
@@ -56,6 +57,68 @@ const ProgressSection = ({
 				<div className={innerClasses}>
 					<SectionHeader data={sectionHeader} className="center-content" />
 					<ProgressBar />
+					<div className="flex-container">
+						<div className="flex-item">
+							<Checkbox
+								className="student-stories"
+								id="checkbox-student-stories"
+								// checked={false}
+							>
+								<label>
+									<b>Why College?</b> Read our student stories.
+								</label>
+							</Checkbox>
+						</div>
+						<div className="flex-item">
+							<Checkbox
+								className="majors-minors"
+								id="checkbox-majors-minors"
+								// checked={true}
+							>
+								<label>
+									<b>Guides:</b> Read our guides about majors and minors.
+								</label>
+							</Checkbox>
+						</div>
+						<div className="flex-item">
+							<Checkbox
+								className="clubs-extracurriculars"
+								id="checkbox-clubs-extracurriculars"
+								// checked={localStorage.getItem()}
+							>
+								<label>
+									<b>Guides:</b> Read our guides about clubs and
+									extracurriculars.
+								</label>
+							</Checkbox>
+						</div>
+						<div className="flex-item">
+							<Checkbox
+								className="housing-transportation"
+								id="checkbox-housing-transportation"
+							>
+								<label>
+									<b>Guides:</b> Read our guides about housing and
+									transportation.
+								</label>
+							</Checkbox>
+						</div>
+						<div className="flex-item">
+							<Checkbox className="how-to-pick" id="checkbox-how-to-pick">
+								<label>
+									<b>Guides:</b> Read our guides about how to pick the right
+									college for you.
+								</label>
+							</Checkbox>
+						</div>
+						<div className="flex-item">
+							<Checkbox className="careers-after" id="checkbox-careers-after">
+								<label>
+									<b>Guides:</b> Read our guides about careers after college.
+								</label>
+							</Checkbox>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
