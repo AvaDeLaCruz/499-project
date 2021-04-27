@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
@@ -60,20 +60,37 @@ const ProgressSection = ({
 	// 	}
 	// };
 
+	const [progress, setProgress] = useState(
+		JSON.parse(localStorage.getItem("progress")) || 0
+	);
+
+	useEffect(() => {
+		if (localStorage.getItem("progress") == null) {
+			localStorage.setItem("progress", 0); //set checkbox as unchecked by default if no prior data stored
+		}
+	});
+
+	const updateProgress = checked => {
+		console.log(checked);
+		const currentProgress = JSON.parse(localStorage.getItem("progress"));
+		let newProgress = checked ? currentProgress + 1 : currentProgress - 1;
+		localStorage.setItem("progress", newProgress);
+		setProgress(newProgress);
+	};
+
 	return (
 		<section {...props} className={outerClasses}>
 			<div className="container">
 				<div className={innerClasses}>
 					<SectionHeader data={sectionHeader} className="center-content" />
-					<ProgressBar />
+					<ProgressBar progress={progress} />
 					<div className="flex-container">
 						<div className="flex-item">
 							<Checkbox
 								className="student-stories"
 								id="checkbox-student-stories"
 								name="checkbox-student-stories"
-								// checked={false}
-								// onChange={handleCheckboxChange}
+								updateProgress={updateProgress}
 							>
 								<label>
 									<b>Why College?</b> Read our student stories.
@@ -85,9 +102,7 @@ const ProgressSection = ({
 								className="majors-minors"
 								id="checkbox-majors-minors"
 								name="checkbox-majors-minors"
-
-								// checked={true}
-								// onChange={handleCheckboxChange}
+								updateProgress={updateProgress}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about majors and minors.
@@ -99,9 +114,7 @@ const ProgressSection = ({
 								className="clubs-extracurriculars"
 								id="checkbox-clubs-extracurriculars"
 								name="checkbox-clubs-extracurriculars"
-
-								// checked={localStorage.getItem()}
-								// onChange={handleCheckboxChange}
+								updateProgress={updateProgress}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about clubs and
@@ -114,8 +127,7 @@ const ProgressSection = ({
 								className="housing-transportation"
 								id="checkbox-housing-transportation"
 								name="checkbox-housing-transportation"
-
-								// onChange={handleCheckboxChange}
+								updateProgress={updateProgress}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about housing and
@@ -128,8 +140,7 @@ const ProgressSection = ({
 								className="how-to-pick"
 								id="checkbox-how-to-pick"
 								name="checkbox-how-to-pick"
-
-								// onChange={handleCheckboxChange}
+								updateProgress={updateProgress}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about how to pick the right
@@ -142,8 +153,7 @@ const ProgressSection = ({
 								className="careers-after"
 								id="checkbox-careers-after"
 								name="checkbox-careers-after"
-
-								// onChange={handleCheckboxChange}
+								updateProgress={updateProgress}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about careers after college.

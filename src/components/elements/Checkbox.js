@@ -36,10 +36,10 @@ const Checkbox = ({
 		// console.log(props.name);
 		const storageName = JSON.stringify(name);
 
-		console.log(name);
-		console.log(localStorage.getItem(storageName));
-		console.log(checkedState);
-		console.log("--------");
+		// console.log(name);
+		// console.log(localStorage.getItem(storageName));
+		// console.log(checkedState);
+		// console.log("--------");
 
 		if (localStorage.getItem(storageName) == null) {
 			localStorage.setItem(storageName, false); //set checkbox as unchecked by default if no prior data stored
@@ -51,16 +51,14 @@ const Checkbox = ({
 	const classes = classNames("form-checkbox", className);
 
 	const handleCheckboxChange = e => {
+		console.log("checkbox");
 		// e.preventDefault();
 		if (e.target.type === "checkbox") {
 			const id = e.target.id;
 			const checked = e.target.checked;
 			localStorage.setItem(JSON.stringify(id), JSON.stringify(checked));
 			setCheckedState(!checkedState);
-			const currentProgress = JSON.parse(localStorage.getItem("progress"));
-			let newProgress = checked ? currentProgress + 1 : currentProgress - 1;
-
-			localStorage.setItem("progress", newProgress);
+			props.updateProgress(checked);
 		}
 	};
 

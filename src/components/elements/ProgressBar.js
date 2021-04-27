@@ -3,25 +3,27 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 
 const propTypes = {
-	children: PropTypes.node
+	children: PropTypes.node,
+	progress: PropTypes.number
 	// status: PropTypes.string
 };
 
 const defaultProps = {
-	children: null
+	children: null,
+	progress: 0
 	// status: false
 };
 
 const ProgressBar = ({ children, className, status, ...props }) => {
-	const [progress, setProgress] = useState(
-		JSON.parse(localStorage.getItem("progress")) || 0
-	);
+	// const [progress, setProgress] = useState(
+	// 	JSON.parse(localStorage.getItem("progress")) || 0
+	// );
 
-	useEffect(() => {
-		if (localStorage.getItem("progress") == null) {
-			localStorage.setItem("progress", 0); //set checkbox as unchecked by default if no prior data stored
-		}
-	});
+	// useEffect(() => {
+	// 	if (localStorage.getItem("progress") == null) {
+	// 		localStorage.setItem("progress", 0); //set checkbox as unchecked by default if no prior data stored
+	// 	}
+	// });
 
 	const classes = classNames(
 		"progress-bar",
@@ -31,7 +33,7 @@ const ProgressBar = ({ children, className, status, ...props }) => {
 
 	return (
 		<div {...props} className={classes}>
-			<progress value={localStorage.getItem("progress")} max="6">
+			<progress value={props.progress} max="6">
 				0%
 			</progress>
 			{children}
