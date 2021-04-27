@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/499-project/static/css/main.b4c9df32.chunk.css",
+    "main.js": "/499-project/static/js/main.1da780be.chunk.js",
+    "main.js.map": "/499-project/static/js/main.1da780be.chunk.js.map",
+    "runtime-main.js": "/499-project/static/js/runtime-main.41a8d406.js",
+    "runtime-main.js.map": "/499-project/static/js/runtime-main.41a8d406.js.map",
+    "static/js/2.15a36d81.chunk.js": "/499-project/static/js/2.15a36d81.chunk.js",
+    "static/js/2.15a36d81.chunk.js.map": "/499-project/static/js/2.15a36d81.chunk.js.map",
+    "index.html": "/499-project/index.html",
+    "precache-manifest.ba0f88451a2d6db5ffd00e2996c8cd7a.js": "/499-project/precache-manifest.ba0f88451a2d6db5ffd00e2996c8cd7a.js",
+    "service-worker.js": "/499-project/service-worker.js",
+    "static/css/main.b4c9df32.chunk.css.map": "/499-project/static/css/main.b4c9df32.chunk.css.map",
+    "static/js/2.15a36d81.chunk.js.LICENSE.txt": "/499-project/static/js/2.15a36d81.chunk.js.LICENSE.txt",
+    "static/media/computer.svg": "/499-project/static/media/computer.0cb73257.svg",
+    "static/media/style.scss": "/499-project/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/499-project/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/499-project/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/499-project/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/499-project/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/499-project/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/499-project/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/frankie.png": "/499-project/static/media/frankie.5a1faf91.png",
+    "static/media/lina.jpeg": "/499-project/static/media/lina.a1a2f04e.jpeg",
+    "static/media/logo.svg": "/499-project/static/media/logo.43f20f87.svg",
+    "static/media/luis.jpg": "/499-project/static/media/luis.ab26190f.jpg",
+    "static/media/student-smiling.png": "/499-project/static/media/student-smiling.fb6d3d2f.png",
+    "static/media/students.svg": "/499-project/static/media/students.6360e77f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41a8d406.js",
+    "static/js/2.15a36d81.chunk.js",
+    "static/css/main.b4c9df32.chunk.css",
+    "static/js/main.1da780be.chunk.js"
+  ]
+}
