@@ -51,14 +51,14 @@ const ProgressSection = ({
 		split && "cta-split"
 	);
 
-	const handleCheckboxChange = e => {
-		// e.preventDefault();
-		if (e.target.type === "checkbox") {
-			const id = JSON.stringify(e.target.id);
-			const checked = JSON.stringify(e.target.checked);
-			localStorage.setItem(id, checked);
-		}
-	};
+	// const handleCheckboxChange = e => {
+	// 	// e.preventDefault();
+	// 	if (e.target.type === "checkbox") {
+	// 		const id = JSON.stringify(e.target.id);
+	// 		const checked = JSON.stringify(e.target.checked);
+	// 		localStorage.setItem(id, checked);
+	// 	}
+	// };
 
 	return (
 		<section {...props} className={outerClasses}>
@@ -71,8 +71,9 @@ const ProgressSection = ({
 							<Checkbox
 								className="student-stories"
 								id="checkbox-student-stories"
+								name="checkbox-student-stories"
 								// checked={false}
-								onChange={handleCheckboxChange}
+								// onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Why College?</b> Read our student stories.
@@ -83,8 +84,10 @@ const ProgressSection = ({
 							<Checkbox
 								className="majors-minors"
 								id="checkbox-majors-minors"
+								name="checkbox-majors-minors"
+
 								// checked={true}
-								onChange={handleCheckboxChange}
+								// onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about majors and minors.
@@ -95,8 +98,10 @@ const ProgressSection = ({
 							<Checkbox
 								className="clubs-extracurriculars"
 								id="checkbox-clubs-extracurriculars"
+								name="checkbox-clubs-extracurriculars"
+
 								// checked={localStorage.getItem()}
-								onChange={handleCheckboxChange}
+								// onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about clubs and
@@ -108,7 +113,9 @@ const ProgressSection = ({
 							<Checkbox
 								className="housing-transportation"
 								id="checkbox-housing-transportation"
-								onChange={handleCheckboxChange}
+								name="checkbox-housing-transportation"
+
+								// onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about housing and
@@ -120,7 +127,9 @@ const ProgressSection = ({
 							<Checkbox
 								className="how-to-pick"
 								id="checkbox-how-to-pick"
-								onChange={handleCheckboxChange}
+								name="checkbox-how-to-pick"
+
+								// onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about how to pick the right
@@ -132,7 +141,9 @@ const ProgressSection = ({
 							<Checkbox
 								className="careers-after"
 								id="checkbox-careers-after"
-								onChange={handleCheckboxChange}
+								name="checkbox-careers-after"
+
+								// onChange={handleCheckboxChange}
 							>
 								<label>
 									<b>Guides:</b> Read our guides about careers after college.

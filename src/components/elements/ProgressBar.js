@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 
 const propTypes = {
-	children: PropTypes.node,
-	status: PropTypes.string
+	children: PropTypes.node
+	// status: PropTypes.string
 };
 
 const defaultProps = {
-	children: null,
-	status: false
+	children: null
+	// status: false
 };
 
 const ProgressBar = ({ children, className, status, ...props }) => {
