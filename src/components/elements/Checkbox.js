@@ -27,8 +27,8 @@ const Checkbox = ({
 	checked,
 	...props
 }) => {
-	const [defaultState, setDefaultState] = useState(
-		localStorage.getItem(name) || ""
+	const [checkedState, setCheckedState] = useState(
+		JSON.parse(localStorage.getItem(JSON.stringify(name))) || false
 	);
 
 	useEffect(() => {
@@ -38,10 +38,14 @@ const Checkbox = ({
 
 		console.log(name);
 		console.log(localStorage.getItem(storageName));
+		console.log(checkedState);
+		console.log("--------");
 
 		if (localStorage.getItem(storageName) == null) {
 			localStorage.setItem(storageName, false); //set checkbox as unchecked by default if no prior data stored
 		}
+
+		// checked = localStorage.getItem(storageName);
 	});
 
 	const classes = classNames("form-checkbox", className);
@@ -52,6 +56,7 @@ const Checkbox = ({
 			const id = JSON.stringify(e.target.id);
 			const checked = JSON.stringify(e.target.checked);
 			localStorage.setItem(id, checked);
+			setCheckedState(!checkedState);
 		}
 	};
 
@@ -63,7 +68,7 @@ const Checkbox = ({
 				name={name}
 				value={value}
 				disabled={disabled}
-				checked={checked}
+				checked={checkedState}
 				onChange={handleCheckboxChange}
 			/>
 			{children}
