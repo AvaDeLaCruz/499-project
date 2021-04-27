@@ -53,10 +53,14 @@ const Checkbox = ({
 	const handleCheckboxChange = e => {
 		// e.preventDefault();
 		if (e.target.type === "checkbox") {
-			const id = JSON.stringify(e.target.id);
-			const checked = JSON.stringify(e.target.checked);
-			localStorage.setItem(id, checked);
+			const id = e.target.id;
+			const checked = e.target.checked;
+			localStorage.setItem(JSON.stringify(id), JSON.stringify(checked));
 			setCheckedState(!checkedState);
+			const currentProgress = JSON.parse(localStorage.getItem("progress"));
+			let newProgress = checked ? currentProgress + 1 : currentProgress - 1;
+
+			localStorage.setItem("progress", newProgress);
 		}
 	};
 

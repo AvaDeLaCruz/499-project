@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
@@ -13,6 +13,16 @@ const defaultProps = {
 };
 
 const ProgressBar = ({ children, className, status, ...props }) => {
+	const [progress, setProgress] = useState(
+		JSON.parse(localStorage.getItem("progress")) || 0
+	);
+
+	useEffect(() => {
+		if (localStorage.getItem("progress") == null) {
+			localStorage.setItem("progress", 0); //set checkbox as unchecked by default if no prior data stored
+		}
+	});
+
 	const classes = classNames(
 		"progress-bar",
 		// status && `text-color-${status}`,
@@ -21,7 +31,7 @@ const ProgressBar = ({ children, className, status, ...props }) => {
 
 	return (
 		<div {...props} className={classes}>
-			<progress value="0" max="100">
+			<progress value={localStorage.getItem("progress")} max="6">
 				0%
 			</progress>
 			{children}
