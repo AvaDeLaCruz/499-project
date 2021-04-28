@@ -193,33 +193,6 @@ const GuidesTiles = ({
 								</div>
 							</div>
 						</Link>
-
-						<Link to={`${url}/misc`}>
-							<div
-								className="tiles-item reveal-from-bottom"
-								data-reveal-delay="1000"
-							>
-								<div className="tiles-item-inner">
-									<div className="features-tiles-item-header">
-										<div className="features-tiles-item-image mb-16">
-											<Image
-												src={require("./../../assets/images/feature-tile-icon-06.svg")}
-												alt="Features tile icon 06"
-												width={64}
-												height={64}
-											/>
-										</div>
-									</div>
-									<div className="features-tiles-item-content">
-										<h4 className="mt-0 mb-8">Misc. Tips and Tricks</h4>
-										<p className="m-0 text-sm">
-											All your questions about other topics related to college,
-											answered here. Click to learn more.
-										</p>
-									</div>
-								</div>
-							</div>
-						</Link>
 					</div>
 				</div>
 			</div>
