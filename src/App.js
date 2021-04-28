@@ -12,7 +12,6 @@ import Home from "./views/Home";
 import WhyCollege from "./views/WhyCollege";
 import Guides from "./views/Guides";
 import GuideDetails from "./views/GuideDetails";
-import GuideDetails2 from "./views/GuideDetails2";
 import FAQs from "./views/FAQs";
 import Progress from "./views/Progress";
 
@@ -63,7 +62,7 @@ const App = () => {
 					<AppRoute
 						exact
 						path="/guides/clubs-and-extracurriculars"
-						component={GuideDetails2}
+						component={GuideDetails}
 						layout={LayoutDefault}
 					/>
 					<AppRoute

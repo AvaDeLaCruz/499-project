@@ -12,7 +12,7 @@ const defaultProps = {
 	...SectionTilesProps.defaults
 };
 
-const GuideExpanded2 = ({
+const ClubsAndExtracurriculars = ({
 	className,
 	topOuterDivider,
 	bottomOuterDivider,
@@ -157,7 +157,7 @@ const GuideExpanded2 = ({
 	);
 };
 
-GuideExpanded2.propTypes = propTypes;
-GuideExpanded2.defaultProps = defaultProps;
+ClubsAndExtracurriculars.propTypes = propTypes;
+ClubsAndExtracurriculars.defaultProps = defaultProps;
 
-export default GuideExpanded2;
+export default ClubsAndExtracurriculars;
