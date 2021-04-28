@@ -82,7 +82,7 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require("./../../assets/images/students.svg")}
+									src={require("./../../assets/images/students.png")}
 									alt="Features split 01"
 									width={528}
 									height={396}
