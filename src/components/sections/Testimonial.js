@@ -189,6 +189,15 @@ const Testimonial = ({
 						>
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
+									<Image
+										className="has-shadow"
+										src={require("./../../assets/images/sebi.JPG")}
+										alt="Hero"
+										width={900}
+										height={450}
+										hspace="20px"
+									/>
+									<br></br>
 									<p className="text-sm mb-0">
 										— Being a first-generation student can come with many
 										challenges, but it is something to be proud of and is well
