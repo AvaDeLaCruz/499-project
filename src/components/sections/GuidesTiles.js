@@ -111,7 +111,7 @@ const GuidesTiles = ({
 							</div>
 						</Link>
 
-						<a href="/faqs">
+						<Link to={`${url}/housing-and-transportation`}>
 							<div
 								className="tiles-item reveal-from-bottom"
 								data-reveal-delay="400"
@@ -136,9 +136,9 @@ const GuidesTiles = ({
 									</div>
 								</div>
 							</div>
-						</a>
+						</Link>
 
-						<a href="/faqs">
+						<Link to={`${url}/how-to-pick-the-right-college`}>
 							<div
 								className="tiles-item reveal-from-bottom"
 								data-reveal-delay="600"
@@ -165,9 +165,9 @@ const GuidesTiles = ({
 									</div>
 								</div>
 							</div>
-						</a>
+						</Link>
 
-						<a href="/faqs">
+						<Link to={`${url}/careers-after-college`}>
 							<div
 								className="tiles-item reveal-from-bottom"
 								data-reveal-delay="800"
@@ -192,9 +192,9 @@ const GuidesTiles = ({
 									</div>
 								</div>
 							</div>
-						</a>
+						</Link>
 
-						<a href="/faqs">
+						<Link to={`${url}/misc`}>
 							<div
 								className="tiles-item reveal-from-bottom"
 								data-reveal-delay="1000"
@@ -219,7 +219,7 @@ const GuidesTiles = ({
 									</div>
 								</div>
 							</div>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
