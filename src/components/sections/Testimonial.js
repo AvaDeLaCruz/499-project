@@ -61,7 +61,7 @@ const Testimonial = ({
 									<Image
 										className="has-shadow"
 										src={require("./../../assets/images/frankie.png")}
-										alt="Hero"
+										alt="Imagine of Frank Carpio"
 										width={500}
 										height={500}
 										align="right"
@@ -100,7 +100,7 @@ const Testimonial = ({
 									<Image
 										className="has-shadow"
 										src={require("./../../assets/images/lina.jpeg")}
-										alt="Hero"
+										alt="Image of Angelina Crittenden"
 										width={450}
 										height={450}
 										align="left"
@@ -148,7 +148,7 @@ const Testimonial = ({
 									<Image
 										className="has-shadow"
 										src={require("./../../assets/images/luis.jpg")}
-										alt="Hero"
+										alt="Image of Luis T."
 										width={450}
 										height={450}
 										align="right"
@@ -334,17 +334,26 @@ const Testimonial = ({
 						</div>
 
 						<div
-							className="tiles-item reveal-from-right"
+							className="tiles-item reveal-from-left"
 							data-reveal-delay="200"
 						>
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
+									<Image
+										className="has-shadow"
+										src={require("./../../assets/images/Iran_Susa.png")}
+										alt="Picture of Iran Susa"
+										width={450}
+										height={450}
+										align="right"
+										hspace="20px"
+									/>
 									<p className="text-sm mb-0">
 										—
-										<h5>
+										<b>
 											Looking back to high school, what do you wish you would
 											have known about college?
-										</h5>
+										</b> <br /> <br />
 										Considering that I left my hometown to go to a private
 										university twenty-two hours away, I wish I would have known
 										that homesickness is real and can be seriously negatively
@@ -353,7 +362,10 @@ const Testimonial = ({
 										just have to be open minded; not everyone has gone through
 										what I went through and we are all here in college to grow
 										as scholars and human beings.
-										<h5>What made/inspired you to apply to college?</h5>I
+										<br /> <br />
+										<b>
+											What made/inspired you to apply to college?
+										</b> <br /> <br />
 										wouldn’t describe it as inspired, but I definitely felt like
 										my choices were quite limited. Knowing that I didn’t have
 										any money to contribute towards my education, I saw college
@@ -363,7 +375,10 @@ const Testimonial = ({
 										would I gain in college compared to what would I gain
 										outside of it? It was difficult, but I knew that college was
 										the better option in the long run.
-										<h5>What has been the value of college?</h5>
+										<br /> <br />
+										<b>
+											What has been the value of college?
+										</b> <br /> <br />
 										The value of college is definitely different for everyone. I
 										have met some amazing people and traveled to places that I
 										never would have gone to; my exposure to new people and
@@ -372,18 +387,20 @@ const Testimonial = ({
 										encouraged me to taste a bit of each field of study, and has
 										connected me to scholars that I will look up to for many
 										years to come in my desired work force and life.
-										<h5>
+										<br /> <br />
+										<b>
 											Where did you learn about the college application process?
-										</h5>
+										</b> <br /> <br />
 										I learned about the college application process in my high
 										school which I would consider myself lucky for having been
 										able to. In high school, the students around me and their
 										parents were bustling with questions since freshman year in
 										a way that made learning about college quite organic.
-										<h5>
+										<br /> <br />
+										<b>
 											What obstacles did you face during high school and how did
 											you overcome them?
-										</h5>
+										</b> <br /> <br />
 										In high school, I encountered many waves of family turmoil
 										and financial crises. With deaths, arrests, evictions, and
 										late nights of general teen angst, I overcame my obstacles
