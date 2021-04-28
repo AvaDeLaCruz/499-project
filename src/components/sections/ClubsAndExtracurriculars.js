@@ -145,7 +145,7 @@ const ClubsAndExtracurriculars = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">Computer Science student, Class of 2022</a>
+										Computer Science student, Class of 2022
 									</span>
 								</div>
 							</div>
