@@ -88,9 +88,7 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">
-											First-Gen Graphic Design Student, Class of 2020
-										</a>
+										<span>First-Gen Graphic Design Student, Class of 2020</span>
 									</span>
 								</div>
 							</div>
@@ -132,10 +130,10 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">
+										<span>
 											First-Gen Human Biology + Forensics and Criminality +
 											Health Care Studies student, Class of 2022
-										</a>
+										</span>
 									</span>
 								</div>
 							</div>
@@ -177,9 +175,9 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">
+										<span>
 											First-Gen Political Science Student, Class of 2022
-										</a>
+										</span>
 									</span>
 								</div>
 							</div>
@@ -277,10 +275,10 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">
+										<span>
 											First-Gen Criminal Justice + Psychology and Sociology
 											Student, Class of 2019
-										</a>
+										</span>
 									</span>
 								</div>
 							</div>
@@ -327,9 +325,9 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">
+										<span>
 											First-Gen Psychology Master's Student, Class of 2021
-										</a>
+										</span>
 									</span>
 								</div>
 							</div>
@@ -403,9 +401,9 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">
+										<span>
 											First-Gen Computational Biology Student, Class of 2022
-										</a>
+										</span>
 									</span>
 								</div>
 							</div>
@@ -453,7 +451,7 @@ const Testimonial = ({
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">First-Gen Music Student, Class of 2024</a>
+										<span>First-Gen Music Student, Class of 2024</span>
 									</span>
 								</div>
 							</div>
