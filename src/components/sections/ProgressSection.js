@@ -8,6 +8,7 @@ import ProgressBar from "../elements/ProgressBar";
 import Switch from "../elements/Switch";
 import Checkbox from "../elements/Checkbox";
 import { Link } from "react-router-dom";
+import Confetti from "react-confetti";
 
 const propTypes = {
 	...SectionProps.types,
@@ -22,7 +23,7 @@ const defaultProps = {
 const sectionHeader = {
 	title: "My Progress",
 	paragraph:
-		"Use the checklist below to keep track of your progress on College Central. Once you complete an item, click the checkbox to mark it as done."
+		"Use the checklist below to keep track of your progress on College Central. Once you complete an item, click the checkbox to mark it as done. The progress bar will update automatically."
 };
 
 const ProgressSection = ({
@@ -52,15 +53,6 @@ const ProgressSection = ({
 		split && "cta-split"
 	);
 
-	// const handleCheckboxChange = e => {
-	// 	// e.preventDefault();
-	// 	if (e.target.type === "checkbox") {
-	// 		const id = JSON.stringify(e.target.id);
-	// 		const checked = JSON.stringify(e.target.checked);
-	// 		localStorage.setItem(id, checked);
-	// 	}
-	// };
-
 	const [progress, setProgress] = useState(
 		JSON.parse(localStorage.getItem("progress")) || 0
 	);
@@ -79,10 +71,15 @@ const ProgressSection = ({
 		setProgress(newProgress);
 	};
 
+	// const DisplayConfetti(props) {
+	// 	const
+	// }
+
 	return (
 		<section {...props} className={outerClasses}>
 			<div className="container">
 				<div className={innerClasses}>
+					{progress == 6 ? <Confetti /> : <></>}
 					<SectionHeader data={sectionHeader} className="center-content" />
 					<ProgressBar progress={progress} />
 					<div className="flex-container">
