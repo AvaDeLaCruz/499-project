@@ -21,7 +21,7 @@ const defaultProps = {
 const sectionHeader = {
 	title: "My Progress",
 	paragraph:
-		"See your progress on College Central and keep track of what you've learned."
+		"Use the checklist below to keep track of your progress on College Central. Once you complete an item, click the checkbox to mark it as done."
 };
 
 const ProgressSection = ({
