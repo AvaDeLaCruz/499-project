@@ -4,6 +4,7 @@ import classNames from "classnames";
 import Logo from "./partials/Logo";
 import FooterNav from "./partials/FooterNav";
 import FooterSocial from "./partials/FooterSocial";
+import Email from "../sections/Email";
 
 const propTypes = {
 	topOuterDivider: PropTypes.bool,
@@ -24,6 +25,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
 
 	return (
 		<footer {...props} className={classes}>
+			<Email />
 			<div className="container">
 				<div
 					className={classNames(
