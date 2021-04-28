@@ -7,6 +7,7 @@ import SectionHeader from "./partials/SectionHeader";
 import ProgressBar from "../elements/ProgressBar";
 import Switch from "../elements/Switch";
 import Checkbox from "../elements/Checkbox";
+import { Link } from "react-router-dom";
 
 const propTypes = {
 	...SectionProps.types,
@@ -93,7 +94,8 @@ const ProgressSection = ({
 								updateProgress={updateProgress}
 							>
 								<label>
-									<b>Why College?</b> Read our student stories.
+									<b>Why College:</b> Read our{" "}
+									<Link to="/why-college">student stories.</Link>
 								</label>
 							</Checkbox>
 						</div>
@@ -105,7 +107,10 @@ const ProgressSection = ({
 								updateProgress={updateProgress}
 							>
 								<label>
-									<b>Guides:</b> Read our guides about majors and minors.
+									<b>Guides:</b> Read our{" "}
+									<Link to="/guides/majors-and-minors">
+										guide about majors and minors.
+									</Link>
 								</label>
 							</Checkbox>
 						</div>
@@ -117,8 +122,10 @@ const ProgressSection = ({
 								updateProgress={updateProgress}
 							>
 								<label>
-									<b>Guides:</b> Read our guides about clubs and
-									extracurriculars.
+									<b>Guides:</b> Read our{" "}
+									<Link to="/guides/clubs-and-extracurriculars">
+										guide about clubs and extracurriculars.
+									</Link>
 								</label>
 							</Checkbox>
 						</div>
@@ -130,8 +137,10 @@ const ProgressSection = ({
 								updateProgress={updateProgress}
 							>
 								<label>
-									<b>Guides:</b> Read our guides about housing and
-									transportation.
+									<b>Guides:</b> Read our{" "}
+									<Link to="/guides/housing-and-transportation">
+										guide about housing and transportation.{" "}
+									</Link>
 								</label>
 							</Checkbox>
 						</div>
@@ -143,8 +152,10 @@ const ProgressSection = ({
 								updateProgress={updateProgress}
 							>
 								<label>
-									<b>Guides:</b> Read our guides about how to pick the right
-									college for you.
+									<b>Guides:</b> Read our{" "}
+									<Link to="/guides/how-to-pick-the-right-college">
+										guide about how to pick the right college for you.
+									</Link>
 								</label>
 							</Checkbox>
 						</div>
@@ -156,7 +167,10 @@ const ProgressSection = ({
 								updateProgress={updateProgress}
 							>
 								<label>
-									<b>Guides:</b> Read our guides about careers after college.
+									<b>Guides:</b> Read our{" "}
+									<Link to="/guides/careers-after-college">
+										guide about careers after college.
+									</Link>
 								</label>
 							</Checkbox>
 						</div>

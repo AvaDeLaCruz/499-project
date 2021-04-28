@@ -5,12 +5,12 @@ import GuidesTiles from "../components/sections/GuidesTiles";
 import FeaturesSplit from "../components/sections/FeaturesSplit";
 import Testimonial from "../components/sections/Testimonial";
 import Cta from "../components/sections/Cta";
-import ProgressBar from "../components/sections/ProgressSection";
+import ProgressSection from "../components/sections/ProgressSection";
 
 const Progress = () => {
 	return (
 		<>
-			<ProgressBar />
+			<ProgressSection />
 			{/* <FeaturesSplit
 				invertMobile
 				topDivider
