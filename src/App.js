@@ -55,13 +55,7 @@ const App = () => {
 					/>
 					<AppRoute
 						exact
-						path="/guides/majors-and-minors"
-						component={GuideDetails}
-						layout={LayoutDefault}
-					/>
-					<AppRoute
-						exact
-						path="/guides/clubs-and-extracurriculars"
+						path="/guides/:topic"
 						component={GuideDetails}
 						layout={LayoutDefault}
 					/>
